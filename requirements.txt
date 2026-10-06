@@ -1,0 +1,8 @@
+streamlit
+ultralytics
+opencv-python
+pandas
+plotly
+# Raspberry Pi only (real servo control):
+# gpiozero
+# lgpio

@@ -1,0 +1,5 @@
+timestamp,source,pet,other,confidence,speed_ms,est_grams
+2026-10-04T13:10:09,photo,1,0,0.789,122,20
+2026-10-04T13:47:26,photo,0,0,0.0,206,0
+2026-10-04T14:02:02,photo,0,0,0.0,205,0
+2026-10-04T14:02:35,photo,1,0,0.789,223,20
