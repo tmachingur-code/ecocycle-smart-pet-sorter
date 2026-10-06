@@ -1,6 +1,6 @@
 streamlit
 ultralytics
-opencv-python
+opencv-python-headless
 pandas
 plotly
 # Raspberry Pi only (real servo control):
