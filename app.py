@@ -480,10 +480,19 @@ details.card .body { margin-top:12px; padding-top:12px; border-top:1px solid #EE
 
 """
 
-for _k, _v in {"%INK%": INK, "%MUTED%": MUTED, "%EDGE%": EDGE, "%BG%": BG, "%TEAL_DARK%": TEAL_DARK, "%TEAL%": TEAL,
 
-               "%GREEN%": GREEN, "%ORANGE%": ORANGE}.items():
-
+for _k, _v in {
+    "%INK%": INK,
+    "%MUTED%": MUTED,
+    "%EDGE%": EDGE,
+    "%BG%": BG,
+    "%TEAL_DARK%": TEAL_DARK,
+    "%TEAL%": TEAL,
+    "%GREEN%": GREEN,
+    "%ORANGE%": ORANGE,
+    "%FOREST%": FOREST,
+    "%FOREST_DARK%": FOREST_DARK,
+}.items():
     CSS = CSS.replace(_k, _v)
 
 st.markdown(CSS, unsafe_allow_html=True)
